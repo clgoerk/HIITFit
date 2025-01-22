@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C32A9432D3F0F0E00706579 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9422D3F0F0E00706579 /* WelcomeView.swift */; };
+		7C32A9452D3F0F2000706579 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9442D3F0F2000706579 /* ExerciseView.swift */; };
+		7C32A9532D3FF3B400706579 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9522D3FF3B400706579 /* HeaderView.swift */; };
+		7C32A9552D3FFE7700706579 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9542D3FFE7700706579 /* Exercise.swift */; };
+		7C32A9572D4005F600706579 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9562D4005F600706579 /* RatingView.swift */; };
+		7C32A9592D40089A00706579 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9582D40089A00706579 /* VideoPlayerView.swift */; };
+		7C32A95B2D4011D100706579 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A95A2D4011D100706579 /* HistoryView.swift */; };
+		7C32A95D2D4017BF00706579 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A95C2D4017BF00706579 /* HistoryStore.swift */; };
+		7C32A9602D4118A000706579 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A95F2D4118A000706579 /* HistoryStoreDevData.swift */; };
+		7C32A9622D4139DD00706579 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32A9612D4139DD00706579 /* SuccessView.swift */; };
 		CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30C923251474DC0049DB93 /* HIITFitApp.swift */; };
 		CD30C926251474DC0049DB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30C925251474DC0049DB93 /* ContentView.swift */; };
 		CD30C928251474DD0049DB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30C927251474DD0049DB93 /* Assets.xcassets */; };
@@ -20,6 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C32A9422D3F0F0E00706579 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		7C32A9442D3F0F2000706579 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		7C32A9522D3FF3B400706579 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7C32A9542D3FFE7700706579 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		7C32A9562D4005F600706579 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		7C32A9582D40089A00706579 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		7C32A95A2D4011D100706579 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7C32A95C2D4017BF00706579 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		7C32A95F2D4118A000706579 /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
+		7C32A9612D4139DD00706579 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		CD30C920251474DC0049DB93 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30C923251474DC0049DB93 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		CD30C925251474DC0049DB93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +65,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C32A9462D3F0F2D00706579 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD30C925251474DC0049DB93 /* ContentView.swift */,
+				7C32A9442D3F0F2000706579 /* ExerciseView.swift */,
+				7C32A9422D3F0F0E00706579 /* WelcomeView.swift */,
+				7C32A9522D3FF3B400706579 /* HeaderView.swift */,
+				7C32A9562D4005F600706579 /* RatingView.swift */,
+				7C32A9582D40089A00706579 /* VideoPlayerView.swift */,
+				7C32A95A2D4011D100706579 /* HistoryView.swift */,
+				7C32A9612D4139DD00706579 /* SuccessView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C32A95E2D4017DB00706579 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C32A9542D3FFE7700706579 /* Exercise.swift */,
+				7C32A95C2D4017BF00706579 /* HistoryStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CD30C917251474DC0049DB93 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				CD30C923251474DC0049DB93 /* HIITFitApp.swift */,
-				CD30C925251474DC0049DB93 /* ContentView.swift */,
+				7C32A9462D3F0F2D00706579 /* View */,
+				7C32A95E2D4017DB00706579 /* Model */,
 				CD30C93D25147A8C0049DB93 /* DateExtension.swift */,
 				CD30C93E25147A8C0049DB93 /* ImageExtension.swift */,
 				CD30C927251474DD0049DB93 /* Assets.xcassets */,
@@ -80,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				CD30C92A251474DD0049DB93 /* Preview Assets.xcassets */,
+				7C32A95F2D4118A000706579 /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -192,10 +238,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C32A9452D3F0F2000706579 /* ExerciseView.swift in Sources */,
+				7C32A9552D3FFE7700706579 /* Exercise.swift in Sources */,
+				7C32A9432D3F0F0E00706579 /* WelcomeView.swift in Sources */,
+				7C32A9572D4005F600706579 /* RatingView.swift in Sources */,
+				7C32A95D2D4017BF00706579 /* HistoryStore.swift in Sources */,
+				7C32A9602D4118A000706579 /* HistoryStoreDevData.swift in Sources */,
+				7C32A9622D4139DD00706579 /* SuccessView.swift in Sources */,
 				CD30C926251474DC0049DB93 /* ContentView.swift in Sources */,
+				7C32A95B2D4011D100706579 /* HistoryView.swift in Sources */,
 				CD30C93F25147A8C0049DB93 /* DateExtension.swift in Sources */,
 				CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */,
 				CD30C94025147A8C0049DB93 /* ImageExtension.swift in Sources */,
+				7C32A9532D3FF3B400706579 /* HeaderView.swift in Sources */,
+				7C32A9592D40089A00706579 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
